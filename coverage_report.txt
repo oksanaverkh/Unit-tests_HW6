@@ -1,0 +1,7 @@
+PS C:\Users\verho\OneDrive\Рабочий стол\!Studying\20_Unit-tests\Homework_6> coverage report -m
+Name            Stmts   Miss  Cover   Missing
+---------------------------------------------
+task_1.py          19     14    26%   7-14, 17-26
+test_task1.py      44     13    70%   14-15, 23-24, 32-33, 40, 48, 56, 63-64, 70-71
+---------------------------------------------
+TOTAL              63     27    57%
