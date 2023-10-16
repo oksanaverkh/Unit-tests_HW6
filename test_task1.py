@@ -33,6 +33,15 @@ class TestAverageInNumListsIncorrectDataList(TestCase):
             self.average_test.find_average_in_num_list(self.list_incorrect)
 
 
+class TestAverageInNumListsIncorrectData(TestCase):
+    average_test = AverageInNumLists()
+    not_list = 2
+
+    def test_find_average_in_num_lists_incorrect_data(self):
+        with pytest.raises(TypeError):
+            self.average_test.find_average_in_num_list(self.not_list)
+
+
 class TestAverageInNumListsAverage1(TestCase):
     average_test = AverageInNumLists()
 
@@ -56,16 +65,17 @@ class TestAverageInNumListsAveragesEqual(TestCase):
         assert self.average_test.compare_averages(
             3.4, 3.4) == 'Средние значения равны'
 
-class TestAverageInNumListsCorrectIncorrectAverage1(TestCase):
+class TestAverageInNumListsIncorrectAverage1(TestCase):
     average_test = AverageInNumLists()
 
     def test_compare_averages_incorrect_input_data(self):
         with pytest.raises(TypeError):
             self.average_test.compare_averages('a', 3.4)
 
-class TestAverageInNumListsCorrectIncorrectAverage2(TestCase):
+class TestAverageInNumListsIncorrectAverage2(TestCase):
     average_test = AverageInNumLists()
 
     def test_compare_averages_incorrect_input_data(self):
         with pytest.raises(TypeError):
             self.average_test.compare_averages(3.4, 'a')
+

@@ -1,4 +1,4 @@
-PS C:\Users\verho\OneDrive\Рабочий стол\!Studying\20_Unit-tests\Homework_6> pylint .\test_task1.py 
+PS C:\Users\verho\OneDrive\Рабочий стол\!Studying\20_Unit-tests\Homework_6> pylint .\test_task1.py
 ************* Module test_task1
 test_task1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 test_task1.py:7:0: C0115: Missing class docstring (missing-class-docstring)
@@ -8,15 +8,17 @@ test_task1.py:22:4: C0116: Missing function or method docstring (missing-functio
 test_task1.py:27:0: C0115: Missing class docstring (missing-class-docstring)
 test_task1.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
 test_task1.py:36:0: C0115: Missing class docstring (missing-class-docstring)
-test_task1.py:39:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_task1.py:44:0: C0115: Missing class docstring (missing-class-docstring)
-test_task1.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_task1.py:52:0: C0115: Missing class docstring (missing-class-docstring)
-test_task1.py:55:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_task1.py:59:0: C0115: Missing class docstring (missing-class-docstring)
-test_task1.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_task1.py:66:0: C0115: Missing class docstring (missing-class-docstring)
-test_task1.py:69:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_task1.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_task1.py:45:0: C0115: Missing class docstring (missing-class-docstring)
+test_task1.py:48:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_task1.py:53:0: C0115: Missing class docstring (missing-class-docstring)
+test_task1.py:56:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_task1.py:61:0: C0115: Missing class docstring (missing-class-docstring)
+test_task1.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_task1.py:68:0: C0115: Missing class docstring (missing-class-docstring)
+test_task1.py:71:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_task1.py:75:0: C0115: Missing class docstring (missing-class-docstring)
+test_task1.py:78:4: C0116: Missing function or method docstring (missing-function-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.14/10 (previous run: 5.93/10, +0.21)
+Your code has been rated at 6.20/10 (previous run: 5.27/10, +0.93)
